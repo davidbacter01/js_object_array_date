@@ -93,3 +93,7 @@ console.log(`obj1 === obj3 => ${obj1 === obj3}`);
 // comparare dupa proprietati
 const areEqual = obj1.a === obj2.a && obj2.b === obj3.b;
 console.log('areEqual: ', areEqual);
+
+// stergere proprieteate obiect
+delete person.age;
+console.log('person: ', person);
