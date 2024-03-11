@@ -97,3 +97,20 @@ console.log('areEqual: ', areEqual);
 // stergere proprieteate obiect
 delete person.age;
 console.log('person: ', person);
+
+
+// Obiectul Date
+const date = new Date();
+console.log('date: ', date);
+
+
+// accesare an
+console.log('an: ', date.getFullYear());
+
+// accesare luna
+const months = ["Ianuarie", "Februarie", "Martie", "Aprilie"];
+const currentMonthIndex = date.getMonth();
+console.log('luna: ', months[currentMonthIndex]);
+
+// accesare zi
+console.log('day of the month: ', date.getDate());
